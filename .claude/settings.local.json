@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xcodebuild -version)",
+      "Bash(brew list *)",
+      "Bash(npm --version)",
+      "Bash(brew install *)",
+      "Bash(xcodegen --version)",
+      "Bash(mkdir -p /Users/guochen/poc/rn-mania/ios-app/Sources/App /Users/guochen/poc/rn-mania/ios-app/Sources/Views /Users/guochen/poc/rn-mania/ios-app/Sources/Models /Users/guochen/poc/rn-mania/ios-app/Resources)",
+      "Bash(xcodegen generate *)",
+      "Bash(xcodebuild -project RNMania.xcodeproj -scheme RNMania -destination 'platform=iOS Simulator,name=iPhone 16' -configuration Debug build)",
+      "Bash(xcodebuild -project RNMania.xcodeproj -scheme RNMania -destination 'platform=iOS Simulator,id=706B91E1-0872-4998-BA89-36D23B46327E' -configuration Debug build)",
+      "Bash(xcodebuild -project RNMania.xcodeproj -scheme RNMania -destination 'platform=iOS Simulator,id=706B91E1-0872-4998-BA89-36D23B46327E' -configuration Debug CODE_SIGN_IDENTITY=\"\" CODE_SIGNING_REQUIRED=NO build)",
+      "Bash(xcrun simctl *)",
+      "Bash(open -a Simulator)",
+      "Bash(xcodebuild -project RNMania.xcodeproj -scheme RNMania -destination 'platform=iOS Simulator,id=706B91E1-0872-4998-BA89-36D23B46327E' -configuration Debug CODE_SIGN_IDENTITY=\"\" CODE_SIGNING_REQUIRED=NO install)",
+      "Bash(xcodebuild -project RNMania.xcodeproj -scheme RNMania -destination 'platform=iOS Simulator,id=706B91E1-0872-4998-BA89-36D23B46327E' -configuration Debug CODE_SIGN_IDENTITY=\"\" CODE_SIGNING_REQUIRED=NO -showBuildSettings)",
+      "Bash(git add *)"
+    ],
+    "additionalDirectories": [
+      "/Users/guochen/poc/rn-mania/ios-app/Sources"
+    ]
+  }
+}
