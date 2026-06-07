@@ -20,9 +20,9 @@ struct HomeView: View {
 
                 VStack(alignment: .leading, spacing: 12) {
                     StepRow(step: 1, title: "SwiftUI Native App", status: .done)
-                    StepRow(step: 2, title: "React Web App", status: .pending)
-                    StepRow(step: 3, title: "React Native Module", status: .pending)
-                    StepRow(step: 4, title: "RN Embedded in SwiftUI", status: .pending)
+                    StepRow(step: 2, title: "React Web App", status: .done)
+                    StepRow(step: 3, title: "React Native Module", status: .done)
+                    StepRow(step: 4, title: "RN Embedded in SwiftUI", status: .inProgress)
                 }
                 .padding()
                 .background(.regularMaterial, in: RoundedRectangle(cornerRadius: 12))
