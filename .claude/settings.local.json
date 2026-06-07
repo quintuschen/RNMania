@@ -15,7 +15,11 @@
       "Bash(open -a Simulator)",
       "Bash(xcodebuild -project RNMania.xcodeproj -scheme RNMania -destination 'platform=iOS Simulator,id=706B91E1-0872-4998-BA89-36D23B46327E' -configuration Debug CODE_SIGN_IDENTITY=\"\" CODE_SIGNING_REQUIRED=NO install)",
       "Bash(xcodebuild -project RNMania.xcodeproj -scheme RNMania -destination 'platform=iOS Simulator,id=706B91E1-0872-4998-BA89-36D23B46327E' -configuration Debug CODE_SIGN_IDENTITY=\"\" CODE_SIGNING_REQUIRED=NO -showBuildSettings)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(pnpm create *)",
+      "Bash(npm create *)",
+      "Bash(npx --yes playwright@latest screenshot --browser=chromium http://localhost:5173 /tmp/web-login.png)",
+      "Bash(npx playwright *)"
     ],
     "additionalDirectories": [
       "/Users/guochen/poc/rn-mania/ios-app/Sources"
